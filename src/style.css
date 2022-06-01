@@ -4,3 +4,35 @@ div {
   text-align: center;
   text-transform: uppercase;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+}
+
+.add button, .less button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #00DDFF;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add button:hover, .less button:hover {
+    background: #0000FF;
+    transition: 1s ease-in-out;
+}
+
+.less {
+  display: flex;
+  flex-direction: column;
+}
