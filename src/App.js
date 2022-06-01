@@ -16,7 +16,7 @@ function App() {
 
   function changeText(e) {
     const newValue = e.target.value;
-    setInputValue(newValue);
+    setInputValue(newValue)
   }
 
   return (
